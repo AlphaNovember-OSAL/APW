@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: Arial, sans-serif;
+}
+
+.mb-sm {
+    margin-bottom: 1rem;
+}
+
+.mb-md {
+    margin-bottom: 2rem;
+}
+
+.mb-lg {
+    margin-bottom: 4rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    background-color: red;
+}
