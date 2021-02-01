@@ -25,6 +25,9 @@ section {
 .section-home-main {
   margin: 0 20rem; }
 
+.section-home-secondary {
+  margin: 0 20rem; }
+
 .section-about-main {
   margin: 0 20rem; }
 
@@ -44,8 +47,7 @@ a {
 
 .row {
   max-width: 114rem;
-  margin: 0 auto;
-  padding: 0 3rem; }
+  margin: 0 auto; }
 
 .row:not(:last-child) {
   margin-bottom: 8rem; }
@@ -137,6 +139,8 @@ a {
         cursor: pointer; }
         .navbar__top__right button:hover {
           transform: scale(1.1); }
+        .navbar__top__right button:active, .navbar__top__right button:focus {
+          border: none; }
   .navbar__bottom__center {
     position: absolute;
     left: 50%;
