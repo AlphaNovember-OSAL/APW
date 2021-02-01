@@ -1,1 +1,0 @@
-document.getElementById('my-video').src = 'assets/mov_bbb.mp4';

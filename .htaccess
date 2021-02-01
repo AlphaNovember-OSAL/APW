@@ -1,0 +1,13 @@
+<ifModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule (.*) /index.html [QSA,L]
+
+    <Files ~ "\.(jpg|jpeg|png|gif|pdf|txt|bmp|mp4|mov|ogg|wmv|webm|flv|mpg|mp2|mpeg|mpe|mpv|m4p|m4v|mp3|wav|acc|oga|m4a)$">
+      order deny,allow
+      deny from all
+      allow from 127.0.0.1
+   </Files>
+</ifModule>

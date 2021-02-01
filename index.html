@@ -14,10 +14,9 @@
                 <h1>Alpha November</h1>
             </div>
             <div class="navbar__top__right">
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+                <button class="link" id="home">Inicio</button>
+                <button class="link" id="about">Sobre nosotros</button>
+                <button class="link" id="contact">Contacto</button>
             </div>
         </div>
         
@@ -29,17 +28,11 @@
         </div>
     </nav>
 
-    <section class="section-main">
-        <div class="row">
-            <div class="col-1-of-2">
-                <h1 class="mb-sm">Sobre nosotros</h1>
-            </div>
-            <div class="col-1-of-2">
-               
-            </div>
-        </div>
-    </section>
+    <div class="container" data-router-outlet></div>
 
-<script src="assets/js/main.js"></script>
+    <div id="modal" class="modal">
+        <p>Click derecho bloqueado</p>
+    </div>
+<script type="module" src="./assets/js/index.js"></script>
 </body>
 </html>

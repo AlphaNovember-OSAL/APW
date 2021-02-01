@@ -1,6 +1,16 @@
+// General
 @import 'all.scss';
+
+// Páginas
+@import 'pages.scss';
+
+// Tipografía
+@import 'typography.scss';
+
+// Columnas
+@import 'grid.scss';
+
+// Componentes
 @import 'components/navbar.scss';
 @import 'components/buttons.scss';
-@import 'sections.scss';
-@import 'typography.scss';
-@import 'grid.scss';
+@import 'components/modal.scss';

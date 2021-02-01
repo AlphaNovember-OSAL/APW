@@ -19,64 +19,16 @@ body {
   display: flex;
   justify-content: space-between; }
 
-.container {
-  background-color: red; }
-
-.navbar {
-  height: 70vh;
-  padding: 1rem;
-  background-image: url("../img/banner.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  clip-path: polygon(100% 0, 0 0, 0 77.5%, 1% 77.4%, 2% 77.1%, 3% 76.6%, 4% 75.9%, 5% 75.05%, 6% 74.05%, 7% 72.95%, 8% 71.75%, 9% 70.55%, 10% 69.3%, 11% 68.05%, 12% 66.9%, 13% 65.8%, 14% 64.8%, 15% 64%, 16% 63.35%, 17% 62.85%, 18% 62.6%, 19% 62.5%, 20% 62.65%, 21% 63%, 22% 63.5%, 23% 64.2%, 24% 65.1%, 25% 66.1%, 26% 67.2%, 27% 68.4%, 28% 69.65%, 29% 70.9%, 30% 72.15%, 31% 73.3%, 32% 74.35%, 33% 75.3%, 34% 76.1%, 35% 76.75%, 36% 77.2%, 37% 77.45%, 38% 77.5%, 39% 77.3%, 40% 76.95%, 41% 76.4%, 42% 75.65%, 43% 74.75%, 44% 73.75%, 45% 72.6%, 46% 71.4%, 47% 70.15%, 48% 68.9%, 49% 67.7%, 50% 66.55%, 51% 65.5%, 52% 64.55%, 53% 63.75%, 54% 63.15%, 55% 62.75%, 56% 62.55%, 57% 62.5%, 100% 62.5%); }
-  .navbar h1 {
-    font-size: 1.5rem;
-    color: whitesmoke; }
-  .navbar a {
-    font-size: 1rem;
-    color: whitesmoke; }
-  .navbar__top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    .navbar__top__left {
-      display: flex;
-      align-items: center;
-      flex-grow: 3; }
-      .navbar__top__left--image {
-        height: 4rem;
-        margin-right: 2rem; }
-    .navbar__top__right {
-      display: flex;
-      justify-content: space-around;
-      flex-grow: 1; }
-  .navbar__bottom__center {
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    transform: translate(-50%, -50%);
-    padding: 4rem; }
-    .navbar__bottom__center--title {
-      font-size: 2rem;
-      color: white;
-      margin-bottom: 2rem; }
-
-.btn {
-  border: none;
-  padding: 1rem;
-  border-radius: 2.5rem;
-  cursor: pointer;
-  text-transform: uppercase;
-  text-decoration: none; }
-  .btn--white {
-    background-color: white; }
-  .btn:active, .btn:focus {
-    outline: none; }
-
 section {
   padding: 2rem; }
 
-.section-main {
+.section-home-main {
+  margin: 0 20rem; }
+
+.section-about-main {
+  margin: 0 20rem; }
+
+.section-contact-main {
   margin: 0 20rem; }
 
 h1 {
@@ -147,3 +99,72 @@ a {
 
 .row .col-3-of-4 {
   width: calc(3 * (100% - 3 * 6rem) / 4 + 6rem); }
+
+.navbar {
+  height: 70vh;
+  padding: 1rem;
+  background-image: url("../img/banner.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(100% 0, 0 0, 0 77.5%, 1% 77.4%, 2% 77.1%, 3% 76.6%, 4% 75.9%, 5% 75.05%, 6% 74.05%, 7% 72.95%, 8% 71.75%, 9% 70.55%, 10% 69.3%, 11% 68.05%, 12% 66.9%, 13% 65.8%, 14% 64.8%, 15% 64%, 16% 63.35%, 17% 62.85%, 18% 62.6%, 19% 62.5%, 20% 62.65%, 21% 63%, 22% 63.5%, 23% 64.2%, 24% 65.1%, 25% 66.1%, 26% 67.2%, 27% 68.4%, 28% 69.65%, 29% 70.9%, 30% 72.15%, 31% 73.3%, 32% 74.35%, 33% 75.3%, 34% 76.1%, 35% 76.75%, 36% 77.2%, 37% 77.45%, 38% 77.5%, 39% 77.3%, 40% 76.95%, 41% 76.4%, 42% 75.65%, 43% 74.75%, 44% 73.75%, 45% 72.6%, 46% 71.4%, 47% 70.15%, 48% 68.9%, 49% 67.7%, 50% 66.55%, 51% 65.5%, 52% 64.55%, 53% 63.75%, 54% 63.15%, 55% 62.75%, 56% 62.55%, 57% 62.5%, 100% 62.5%); }
+  .navbar h1 {
+    font-size: 1.5rem;
+    color: whitesmoke; }
+  .navbar a {
+    font-size: 1rem;
+    color: whitesmoke; }
+  .navbar__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .navbar__top__left {
+      display: flex;
+      align-items: center;
+      flex-grow: 3; }
+      .navbar__top__left--image {
+        height: 4rem;
+        margin-right: 2rem; }
+    .navbar__top__right {
+      display: flex;
+      justify-content: space-around;
+      flex-grow: 1; }
+      .navbar__top__right button {
+        font-size: 1rem;
+        border: none;
+        background-color: transparent;
+        color: white;
+        padding: .5rem;
+        cursor: pointer; }
+        .navbar__top__right button:hover {
+          transform: scale(1.1); }
+  .navbar__bottom__center {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    padding: 4rem; }
+    .navbar__bottom__center--title {
+      font-size: 2rem;
+      color: white;
+      margin-bottom: 2rem; }
+
+.btn {
+  border: none;
+  padding: 1rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .btn--white {
+    background-color: white; }
+  .btn:active, .btn:focus {
+    outline: none; }
+
+.modal {
+  position: absolute;
+  background-color: #fefefe;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1rem;
+  border-radius: 2.5rem;
+  width: 200px;
+  display: none; }
