@@ -3,9 +3,22 @@
     margin: 0;
 }
 
-body {
+html {
     font-size: 62.5%;
     font-family: Arial, sans-serif;
+
+    @include respond(big-desktop) {
+        font-size: 68.75%; // 1 rem = 11px
+    }
+    @include respond(tab-land) {
+        font-size: 56.25%; // 1 rem = 9px
+    }
+    @include respond(tab-port) {
+        font-size: 50%; // 1 rem = 8px
+    }
+    @include respond(phone) {
+        font-size: 50%; // 1 rem = 8px
+    }
 }
 
 .mb-sm {

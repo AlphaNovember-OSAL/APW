@@ -1,7 +1,26 @@
 .section-home-main {
     margin: 0 20rem;
+    @include respond(tab-land) {
+        margin: 0 10rem;
+    }
+    @include respond(tab-port) {
+        margin: 0 7.5rem;
+    }
+    @include respond(phone) {
+        margin: 0 5rem;
+    }
 }
 
 .section-home-secondary {
     margin: 0 20rem;
+    
+    @include respond(tab-land) {
+        margin: 0 10rem;
+    }
+    @include respond(tab-port) {
+        margin: 0 7.5rem;
+    }
+    @include respond(phone) {
+        margin: 0 5rem;
+    }
 }
