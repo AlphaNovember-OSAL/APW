@@ -13,7 +13,7 @@
 
 .section-home-secondary {
     margin: 0 20rem;
-    
+
     @include respond(tab-land) {
         margin: 0 10rem;
     }

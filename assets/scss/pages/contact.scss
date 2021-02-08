@@ -1,3 +1,9 @@
 .section-contact-main {
-    margin: 0 20rem;
+    display: flex;
+    justify-content: center;
+
+    .form {
+        margin: 2rem 0;
+        padding: 2rem;
+    }
 }

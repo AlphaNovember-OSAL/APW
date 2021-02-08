@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,8 +7,9 @@
 
 html {
     font-size: 62.5%;
-    font-family: Arial, sans-serif;
 
+    font-family: 'Ubuntu', sans-serif;
+   
     @include respond(big-desktop) {
         font-size: 68.75%; // 1 rem = 11px
     }

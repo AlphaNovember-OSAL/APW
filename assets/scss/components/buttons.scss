@@ -10,6 +10,11 @@
         background-color: white;
     }
 
+    &--blue {
+        background-color: #06f;
+        color: whitesmoke;
+    }
+
     &:active, &:focus {
         outline: none;
     } 
